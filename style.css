@@ -45,6 +45,10 @@ button{
     padding: 12px;
     height: fit-content;
     font-size: 14px;
+    cursor: pointer;
+}
+.header-btn:active{
+    filter: brightness(80%);
 }
 
 /* end header */
@@ -304,6 +308,9 @@ button{
     gap: 12px;
     list-style: none;
 }
+.pagination-area li{
+    cursor: pointer;
+}
 .pagination-area ul li.active{
     color: var(--orange-color);
 }
@@ -311,6 +318,9 @@ button{
     background-color: #ececec;
     border-radius:6px ;
     padding: 0 10px;
+}
+.arrow li{
+    cursor: pointer;
 }
 .pagination-area ul li{
     color: #000;
