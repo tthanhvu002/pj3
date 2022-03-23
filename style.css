@@ -362,6 +362,11 @@ button{
     position: absolute;
     background-color: var(--orange-color);
 }
+.food-price span{
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+    text-decoration: line-through;
+}
 .food h3{
     margin-top: 4px;
     font-size: 14px;
