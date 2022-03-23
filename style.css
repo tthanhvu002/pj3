@@ -318,7 +318,8 @@ button{
 .arrow{
     background-color: #ececec;
     border-radius:6px ;
-    padding: 0 10px;
+    padding: 8px 10px;
+    line-height: 1;
 }
 .arrow li{
     cursor: pointer;
@@ -341,13 +342,28 @@ button{
     flex-direction: column;
     padding: 20px 10px 0;
     border: 1px solid #ccc;
+    position: relative;
 }
 .food img{
     margin: 0 auto;
     height: 130px;
     object-fit: contain;
 }
+.food .sale{
+    color: #fff;
+    padding: 2px;
+    line-height: 1;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    right: 0;
+    top: 132px;
+    position: absolute;
+    background-color: var(--orange-color);
+}
 .food h3{
+    margin-top: 4px;
     font-size: 14px;
 }
 .brand{
