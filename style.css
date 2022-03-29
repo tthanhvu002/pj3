@@ -65,7 +65,7 @@ button{
 .tab .container{
     display: flex;
     gap: 8px;
-    padding: 2px;
+    align-items: center;
 }
 .tab-item{
     margin-left: 14px;
@@ -84,7 +84,7 @@ button{
     bottom: 0px;
     width: 0;
     height: 0;
-    border-left: 8px solid #ececec;
+    border-left: 6px solid #ececec;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
   }
@@ -92,7 +92,7 @@ button{
     content: "";
     position: absolute;
     right: -8px;
-    bottom: -1px;
+    bottom: 0px;
     width: 0;
     height: 0;
     border-left: 8px solid #fff;
