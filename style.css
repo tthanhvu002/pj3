@@ -68,12 +68,12 @@ button{
     padding: 2px;
 }
 .tab-item{
+    margin-left: 14px;
     font-size: 12px;
 }
 
 .tab-item.active {    
-    padding-left: 14px;
-
+    padding-left: 12px;
     position: relative;
     background: #fff;
   }
@@ -81,23 +81,23 @@ button{
     content: "";
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: 0px;
     width: 0;
     height: 0;
-    border-left: 6px solid #ececec;
-    border-top: 11px solid transparent;
-    border-bottom: 13px solid transparent;
+    border-left: 8px solid #ececec;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
   }
   .tab-item.active:before {
     content: "";
     position: absolute;
-    right: -13px;
-    bottom: 0px;
+    right: -8px;
+    bottom: -1px;
     width: 0;
     height: 0;
-    border-left: 13px solid #fff;
-    border-top: 11px solid transparent;
-    border-bottom: 13px solid transparent;
+    border-left: 8px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
 }
 .head-image img{
     height: 241px;
@@ -335,7 +335,6 @@ button{
     flex-wrap: wrap;
 }
 .food{
-    width: 145px;
     overflow: hidden;
     background-color: #fff;
     display: flex;
@@ -343,6 +342,7 @@ button{
     padding: 20px 10px 0;
     border: 1px solid #ccc;
     position: relative;
+    flex: calc(25% - 31px);
 }
 .food img{
     margin: 0 auto;
